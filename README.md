@@ -27,6 +27,7 @@ Discount & Subscription Status
 
 Review Ratings and Purchase Frequency
 
+
 🛠️ Tools & Technologies
 
 Python: Data loading, cleaning, and exploratory data analysis (EDA)
@@ -40,6 +41,7 @@ Power BI: Interactive dashboard creation
 Gamma: Business presentation and storytelling
 
 GitHub: Project documentation and version control
+
 
 🔍 Data Analysis Process
 1️⃣ Data Loading & Cleaning (Python)
@@ -56,6 +58,7 @@ Created derived features such as age groups and purchase frequency
 
 Prepared clean data for database insertion
 
+
 2️⃣ Exploratory Data Analysis (EDA)
 
 Analyzed customer demographics and spending behavior
@@ -65,6 +68,7 @@ Identified trends across product categories and seasons
 Compared subscription vs non-subscription customers
 
 Studied the impact of discounts on purchase amounts
+
 
 3️⃣ SQL Analysis (MySQL)
 
@@ -79,6 +83,7 @@ Top-performing products and categories
 Discount usage and high-value customers
 
 Customer segmentation based on purchase history
+
 
 📊 Dashboard (Power BI)
 
@@ -96,6 +101,7 @@ Demographic-based revenue trends
 
 The dashboard is designed for business users and stakeholders to easily explore insights.
 
+
 📈 Results & Key Insights
 
 Subscription customers tend to generate higher average revenue
@@ -107,6 +113,7 @@ Discounts increase purchase frequency but require margin control
 Loyal customers drive consistent revenue across categories
 
 Top-rated products align closely with higher sales volumes
+
 
 💡 Business Recommendations
 
@@ -120,6 +127,7 @@ Focus marketing efforts on high-performing customer segments
 
 Highlight top-rated and best-selling products in campaigns
 
+
 📄 Deliverables
 
 Cleaned dataset
@@ -129,6 +137,7 @@ SQL queries for business analysis
 Interactive Power BI dashboard
 
 Final analysis report
+
 
 🚀 Conclusion
 
