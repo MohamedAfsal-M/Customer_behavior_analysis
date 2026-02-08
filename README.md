@@ -1,11 +1,14 @@
 # Customer_behavior_analysis
 Customer data analysis project for showcasing sales using python, SQL and powerbi.
+
+
 📌 Overview
 
 This project focuses on analyzing customer shopping behavior using transactional data to uncover insights into spending patterns, product preferences, and customer segments.
 The analysis combines Python, SQL, and Power BI to deliver end-to-end data insights, supported by a business-focused report and presentation.
 
 The goal is to demonstrate practical data analysis skills—from raw data to actionable business recommendations.
+
 
 📂 Dataset
 
@@ -44,6 +47,7 @@ GitHub: Project documentation and version control
 
 
 🔍 Data Analysis Process
+
 1️⃣ Data Loading & Cleaning (Python)
 
 Loaded the dataset using Pandas
