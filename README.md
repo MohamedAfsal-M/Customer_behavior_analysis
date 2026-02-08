@@ -1,148 +1,115 @@
-# Customer_behavior_analysis
-Customer data analysis project for showcasing sales using python, SQL and powerbi.
+# Customer Shopping Behavior Analysis
 
+📌 Project Overview
 
-📌 Overview
+This project analyzes customer shopping behavior using transactional data from 3,900 purchases across multiple product categories. The objective was to uncover spending patterns, customer segments, product performance, and subscription behavior to support data-driven business decisions.
 
-This project focuses on analyzing customer shopping behavior using transactional data to uncover insights into spending patterns, product preferences, and customer segments.
-The analysis combines Python, SQL, and Power BI to deliver end-to-end data insights, supported by a business-focused report and presentation.
+🎯 Business Objectives
 
-The goal is to demonstrate practical data analysis skills—from raw data to actionable business recommendations.
+Analyze customer spending patterns across demographics and subscriptions
 
+Identify high-value customers and discount-driven products
 
-📂 Dataset
+Segment customers based on purchase behavior
 
-Records: 3,900 customer transactions
+Deliver actionable insights through SQL analysis and Power BI dashboards
 
-Features: Customer demographics, purchase details, discounts, subscriptions, reviews, and shipping information
 
-Data Type: Structured transactional data
+📊 Dataset Summary
 
-Source: Provided dataset for analysis purposes
+Records: 3,900 transactions
 
-Key attributes include:
+Columns: 18
 
-Customer Age, Gender, Location
+Key Attributes:
 
-Product Category, Item Purchased, Purchase Amount
+Customer demographics (Age, Gender, Location, Subscription Status)
 
-Discount & Subscription Status
+Purchase details (Product, Category, Amount, Season, Size, Color)
 
-Review Ratings and Purchase Frequency
+Behavioral metrics (Discount Applied, Purchase Frequency, Review Rating, Shipping Type)
 
 
-🛠️ Tools & Technologies
+🧹 Data Cleaning & Preparation (Python)
 
-Python: Data loading, cleaning, and exploratory data analysis (EDA)
+Loaded and explored data using pandas (info(), describe())
 
-Libraries: Pandas, NumPy, Matplotlib, Seaborn
+Handled missing values in review ratings using category-wise median imputation
 
-MySQL: Running analytical SQL queries on cleaned data
+Standardized column names to snake_case
 
-Power BI: Interactive dashboard creation
+Performed feature engineering:
 
-Gamma: Business presentation and storytelling
+Created age_group for demographic analysis
 
-GitHub: Project documentation and version control
+Derived purchase_frequency_days for behavioral insights
 
+Removed redundant fields after consistency checks
 
-🔍 Data Analysis Process
+Loaded the cleaned dataset into PostgreSQL for SQL-based analysis
 
-1️⃣ Data Loading & Cleaning (Python)
 
-Loaded the dataset using Pandas
+🧮 Data Analysis (SQL – MySQL)
 
-Checked data structure, data types, and missing values
+Conducted SQL analysis to answer key business questions, including:
 
-Handled missing values in review ratings
+Revenue comparison by gender and subscription status
 
-Standardized column names for consistency
+Identification of high-spending discount users
 
-Created derived features such as age groups and purchase frequency
+Top 5 products by average rating
 
-Prepared clean data for database insertion
+Spend comparison across shipping types
 
+Customer segmentation into New, Returning, and Loyal groups
 
-2️⃣ Exploratory Data Analysis (EDA)
+Analysis of repeat buyers and subscription adoption
 
-Analyzed customer demographics and spending behavior
+Revenue contribution by age group
 
-Identified trends across product categories and seasons
+Top-performing products within each category
 
-Compared subscription vs non-subscription customers
 
-Studied the impact of discounts on purchase amounts
+📈 Data Visualization (Power BI)
 
+Developed an interactive Power BI dashboard to visualize:
 
-3️⃣ SQL Analysis (MySQL)
+Revenue trends and customer segments
 
-Performed business-focused queries, including:
+Product performance and discount dependency
 
-Revenue comparison by gender and age group
+Subscription vs. non-subscription spending behavior
 
-Subscriber vs non-subscriber spending behavior
+Demographic-based revenue contribution
 
-Top-performing products and categories
+The dashboard enables stakeholders to filter and explore insights dynamically.
 
-Discount usage and high-value customers
 
-Customer segmentation based on purchase history
+💡 Key Insights & Business Impact
 
+Subscribers generate higher average revenue compared to non-subscribers
 
-📊 Dashboard (Power BI)
+Loyal customers contribute a significant share of total revenue
 
-An interactive Power BI dashboard was created to visualize key insights:
+Certain products rely heavily on discounts, impacting margins
 
-Total revenue and average purchase value
+Specific age groups and express-shipping users drive higher spend
 
-Customer segmentation overview
 
-Subscription and discount analysis
+📌 Business Recommendations
 
-Top products and categories
+Promote subscription benefits to increase recurring revenue
 
-Demographic-based revenue trends
+Introduce loyalty programs to convert repeat buyers into loyal customers
 
-The dashboard is designed for business users and stakeholders to easily explore insights.
+Optimize discount strategies for margin-sensitive products
 
+Focus marketing on high-revenue age groups and top-rated products
 
-📈 Results & Key Insights
+🛠 Tools & Technologies
 
-Subscription customers tend to generate higher average revenue
+Python (Pandas) • SQL (MYSQL) • Power BI • Excel • Data Cleaning • Data Visualization
 
-Certain age groups contribute significantly to total sales
+🎯 Skills Demonstrated
 
-Discounts increase purchase frequency but require margin control
-
-Loyal customers drive consistent revenue across categories
-
-Top-rated products align closely with higher sales volumes
-
-
-💡 Business Recommendations
-
-Strengthen subscription programs with exclusive benefits
-
-Introduce loyalty rewards for repeat customers
-
-Optimize discount strategies to balance sales and profitability
-
-Focus marketing efforts on high-performing customer segments
-
-Highlight top-rated and best-selling products in campaigns
-
-
-📄 Deliverables
-
-Cleaned dataset
-
-SQL queries for business analysis
-
-Interactive Power BI dashboard
-
-Final analysis report
-
-
-🚀 Conclusion
-
-This project demonstrates an end-to-end data analysis workflow, combining technical skills with business insights. It showcases the ability to transform raw data into clear, actionable recommendations using industry-standard tools.
+Data Analysis • SQL Queries • Customer Segmentation • Business Insights • Dashboard Development • Data-Driven Decision Making
